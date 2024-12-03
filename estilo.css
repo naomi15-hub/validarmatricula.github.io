@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #19dd51, #923ca5); /* Fondo degradado azul */
+    color: #190202; /* Texto blanco */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px; /* Ancho máximo */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+    color: #333;
+    outline: none;
+    transition: all 0.3s;
+}
+
+input:focus {
+    border-color: #c754a3; /* Borde azul al enfocar */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #b00ce2; /* Botón azul */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #155eaa; /* Botón más oscuro al pasar el cursor */
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f8d7da; /* Color rosado */
+    text-align: center;
+}
